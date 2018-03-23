@@ -1,0 +1,16 @@
+:host ::ng-deep nz-header,:host ::ng-deep nz-footer{
+  height: 70px;
+}
+:host ::ng-deep .ant-layout-header{
+  background-color: #fbf7f1;
+  position: fixed;
+  width: 100%;
+  top:0;
+}
+:host ::ng-deep nz-footer{
+  text-align: center;
+}
+.layout-container{
+  margin-top: 70px;
+  min-height: calc(100vh - 140px);
+}
